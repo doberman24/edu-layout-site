@@ -1,0 +1,58 @@
+* {
+    font-family: 'El Messiri', sans-serif;
+}
+
+a {
+   text-decoration: none;
+   color: black;
+}
+
+header {
+    background-image: url(../img/header-bg.png);
+}
+
+main {
+    background-image: url(../img/category-bg.png);
+}
+.main_padd {
+    width: 1080px;
+    border: 1px solid black;
+}
+
+.main_font {
+    color: dimgray;
+}
+
+.menu_h_f {
+    background-color:rgb(247, 243, 242);
+}
+
+.name_page {
+/*    border: 1px solid black;*/
+    font-size: 50px;
+}
+
+.align_all {
+    vertical-align: middle;
+    text-align: center;
+    width: 1000px;    
+}
+
+.bg {
+    background-image: url(../img/banner-bg.png);
+}
+
+.subscr{
+    background-image: url(../img/subscribe-bg.png);
+    color: white;
+    width: 100%;
+}
+
+button.subscr {
+    background-color: darkgray;
+    border-color: white;
+}
+
+a.secure {
+    color: chartreuse;
+}
