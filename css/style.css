@@ -11,20 +11,21 @@ a {
 .pos_header {
     background: url(../img/header-bg.png) no-repeat center center;
 }
-.head_content, .artic {
+.h_f_content, .artic {
     width: 60%;
     margin: 15px 20%;
 }
-.head_content table {
+.h_f_content table {
     width: 100%;
     text-align: center;
 }
-.head_content td {
+.h_f_content td {
     vertical-align: middle;
 }
 .menu_h {
     background-color:rgb(247, 243, 242);
     height: 60px;
+    border-radius: 5px;
 }
 /*------------------------*/
 
@@ -81,11 +82,33 @@ tr.artic_text {
     padding: 50px 0 100px;
 }
 
+.load_but button {
+    background-color: rgb(128, 180, 67);
+    border: none;
+    color: #fff;
+    min-width: 1050px;
+    min-height: 44px;
+    border-radius: 22px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    letter-spacing: 1px;
+    box-shadow: 0 0 10px rgb(119, 119, 119);
+}
+
+.but:hover {
+    background-color: rgb(94, 134, 49);
+    box-shadow: 0 0 17px rgb(65, 65, 65);
+}
+
+.load_but {
+    margin-bottom: 60px;
+}
+
 .load_but{
     text-align: center;
     margin-top: 20px;
 }
-
 
 .subscr{
     background-image: url(../img/subscribe-bg.png);
@@ -97,6 +120,15 @@ button.subscr {
     border-color: white;
 }
 
+footer .menu_h {
+    background-color: #e7e1da;
+    margin-bottom: 40px;
+}
+
 .secure a {
-    color: chartreuse;
+    color: rgb(86, 168, 3);
+}
+
+.f_content {
+    margin-bottom: 40px;
 }
