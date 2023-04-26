@@ -22,10 +22,36 @@ a {
 .h_f_content td {
     vertical-align: middle;
 }
+
 .menu_h {
     background-color:rgb(247, 243, 242);
     height: 60px;
     border-radius: 5px;
+}
+
+.menu_h select {
+    border: solid black 0;
+    color: black;
+    background-color: rgb(247, 243, 242);
+    outline: none;
+    height: 20px;
+}
+
+.find_ input {
+    outline: none;
+    font-family: Arial, Helvetica, sans-serif;
+    border: rgb(240, 240, 240) solid 2px;
+    height: 24px;
+    width: 200px;
+    border-radius: 15px;
+    font-size: 17px;
+    letter-spacing: 1px;
+}
+
+.find_ input::placeholder {
+    background: url(../img/find.png) right no-repeat;
+    background-size: 20px;
+
 }
 /*------------------------*/
 
@@ -110,14 +136,72 @@ tr.artic_text {
     margin-top: 20px;
 }
 
-.subscr{
-    background-image: url(../img/subscribe-bg.png);
-    color: white;
+.subscr {
+    background: url(../img/subscribe-bg.png) no-repeat;
+    background-size: 100%;
+    text-align: center;
+    height: 370px;
+    padding-bottom: 20px;
+    padding-top: 40px;
 }
 
-button.subscr {
-    background-color: darkgray;
-    border-color: white;
+.lett {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.subscr h2 {
+    font-size: 38px;
+    font-family: 'El Messiri', sans-serif;
+    margin-bottom: 20px;
+}
+
+.subscr button {
+    background-color: rgb(128, 180, 67, 0);
+    border: solid white 2px;
+    color: #fff;
+    min-width: 250px;
+    min-height: 56px;
+    border-radius: 28px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    letter-spacing: 1px;
+    box-shadow: 0 0 10px rgb(119, 119, 119);
+    
+}
+
+.butsub:hover {
+    background-color: rgb(94, 134, 49, 0);
+    box-shadow: 0 0 17px rgb(109, 109, 109);
+}
+
+.lett input::placeholder {
+    color: #fff;
+}
+
+/* .lett input:focus {
+    border: none;
+} */
+
+.lett input  {
+    outline: none;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(94, 134, 49, 0);
+    min-width: 350px;
+    color: white;
+    border: none;
+    font-size: 17px;
+    letter-spacing: 1px;
+    padding-bottom: 5px;
+    margin: 80px 12px 30px 12px;
+    border-bottom: #fff solid 1px;
+}
+
+.u_name {
+    margin-bottom: 25px;;
 }
 
 footer .menu_h {
@@ -127,8 +211,16 @@ footer .menu_h {
 
 .secure a {
     color: rgb(86, 168, 3);
+    text-decoration: underline;
 }
 
 .f_content {
+    font-family: Arial, Helvetica, sans-serif;    
+    font-size: 14px;
     margin-bottom: 40px;
+    letter-spacing: 1px;
+}
+
+.copyright {
+    color: black;
 }
